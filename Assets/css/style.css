@@ -4,15 +4,48 @@
   box-sizing: border-box;
 }
 
+/* Header */
 #site_header {
   height: 100px;
   background-image: url("/Assets/img/pattern.png");
   background-size: 25% 200%;
-
   background-color: #4EA0FF;
 }
 
 .header_logo {
-  margin: 40px 0 25px 0;
+  margin: 40px 0 25px 348.5px;
   height: 50px;
+}
+
+/* Main */
+#site_main {
+  width: 1200px;
+  margin: auto;
+}
+
+.title {
+  font-weight: bold;
+  margin: 20px 0 20px 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.author {
+  font-size: 1.5rem;
+  color: #808080;
+}
+
+#author_name {
+  font-size: 1.5rem;
+  color: #20A9E5;
+}
+
+.images {
+  margin-bottom: 20px;
+}
+
+img {
+  height: 362px;
 }
