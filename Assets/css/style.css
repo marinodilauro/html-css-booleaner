@@ -49,3 +49,35 @@ h1 {
 img {
   height: 362px;
 }
+
+.highlighted {
+  background-color: yellow;
+}
+
+#list {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: #20A9E5;
+  color: white;
+  font-weight: bold;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  padding: 20px 0 20px 0;
+}
+
+.colored_row {
+  background-color: #B1E5F2;
+}
