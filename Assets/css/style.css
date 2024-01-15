@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* Header */
+/* --- Header --- */
 #site_header {
   height: 100px;
   background-image: url("/Assets/img/pattern.png");
@@ -17,22 +17,23 @@
   height: 50px;
 }
 
-/* Main */
+/* --- Main ---*/
 #site_main {
   width: 1200px;
   margin: auto;
 }
 
+/* Title */
 .title {
-  font-weight: bold;
   margin: 20px 0 20px 0;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
-.author {
+.subheading {
+  font-weight: bold;
   font-size: 1.5rem;
   color: #808080;
 }
@@ -42,6 +43,7 @@ h1 {
   color: #20A9E5;
 }
 
+/* Images */
 .images {
   margin-bottom: 20px;
 }
@@ -50,15 +52,18 @@ img {
   height: 362px;
 }
 
+/* Paragraph */
 .highlighted {
   background-color: yellow;
 }
 
+/* List */
 #list {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
+/* Table */
 table {
   width: 100%;
   margin-bottom: 20px;
@@ -80,4 +85,39 @@ td {
 
 .colored_row {
   background-color: #B1E5F2;
+}
+
+/* --- Footer --- */
+
+#site_footer {
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #808080;
+}
+
+/* Title */
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Images */
+.footer_image_container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.footer_image {
+  width: 30%;
+  height: auto;
+}
+
+.image_text {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
 }
